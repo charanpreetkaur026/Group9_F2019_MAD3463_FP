@@ -10,6 +10,13 @@ public abstract class FullTime extends Employee
         return salary;
     }
 
+    public FullTime(String name, int age, double salary,double bonus,Vehicle vehicle) {
+        super(name, age,vehicle);
+        this.salary=salary;
+        this.bonus=bonus;
+        setVehicle(vehicle);
+    }
+
     public void setSalary(double salary) {
         this.salary = salary;
     }
