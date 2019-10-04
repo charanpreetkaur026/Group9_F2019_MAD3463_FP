@@ -2,16 +2,17 @@ package com.lambton;
 
 import java.time.LocalDate;
 
-public abstract class Employee implements IPrintable
+
 {
     private String name;
     private int age;
     private Vehicle vehicle;
     private double earnings;
-
+    private double test; /**/
     public String getName() {
         return name;
     }
+
 
     public Employee(String name, int age, Vehicle vehicle) {
         this.name=name;
@@ -26,7 +27,6 @@ public abstract class Employee implements IPrintable
         int age=Integer.valueOf(end.toString().substring(0, 4))  ;
         age=age-yearofBirth-1;
         return age;
-    }
 
     public void setName(String name) {
         this.name = name;
@@ -56,8 +56,5 @@ public abstract class Employee implements IPrintable
         this.earnings = earnings;
     }
 
-    @Override
-    public String printMyData() {
-        return "Employee Name: "+getName()+"\n"+"Employee Age"+getAge();
-    }
+
 }
