@@ -2,7 +2,7 @@ package com.lambton;
 
 import java.time.LocalDate;
 
-public class Employee
+public abstract class Employee implements IPrintable
 {
     private String name;
     private int age;
@@ -55,4 +55,6 @@ public class Employee
     public void setEarnings(double earnings) {
         this.earnings = earnings;
     }
+
+   
 }
