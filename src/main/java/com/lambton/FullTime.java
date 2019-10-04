@@ -38,4 +38,8 @@ public abstract class FullTime extends Employee
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+
+
+
+
 }

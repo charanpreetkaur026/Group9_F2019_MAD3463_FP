@@ -37,4 +37,8 @@ public class Intern extends Employee
         this.vehicle = vehicle;
     }
 
+    @Override
+    public String printMyData() {
+        return super.printMyData();
+    }
 }
