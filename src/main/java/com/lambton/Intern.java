@@ -7,7 +7,11 @@ public class Intern extends Employee
     private double earnings;
     private Vehicle vehicle;
 
-    
+    public Intern(String name, int age, String schoolName,Vehicle vehicle) {
+        super(name, age, vehicle);
+        this.schoolName = schoolName;
+
+    }
 
     public String getSchoolName() {
         return schoolName;
