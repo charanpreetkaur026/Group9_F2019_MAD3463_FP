@@ -56,5 +56,8 @@ public abstract class Employee implements IPrintable
         this.earnings = earnings;
     }
 
-
+    @Override
+    public String printMyData() {
+        return null;
+    }
 }
