@@ -2,7 +2,7 @@ package com.lambton;
 
 import java.time.LocalDate;
 
-public class Employee
+
 {
     private String name;
     private int age;
@@ -27,10 +27,6 @@ public class Employee
         int age=Integer.valueOf(end.toString().substring(0, 4))  ;
         age=age-yearofBirth-1;
         return age;
-
-
-    }
-
 
     public void setName(String name) {
         this.name = name;
