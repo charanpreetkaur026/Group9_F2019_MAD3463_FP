@@ -58,6 +58,6 @@ public abstract class Employee implements IPrintable
 
     @Override
     public String printMyData() {
-        return null;
+        return "Employee Name: "+getName()+"\n"+"Employee Age"+getAge();
     }
 }
