@@ -40,5 +40,11 @@ public class Intern extends Employee
     @Override
     public String printMyData() {
         return super.printMyData();
+
+    }
+
+    @Override
+    public String toString() {
+        return null;
     }
 }
