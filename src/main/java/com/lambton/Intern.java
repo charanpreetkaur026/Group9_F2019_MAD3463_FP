@@ -1,11 +1,13 @@
 package com.lambton;
 
-public class Intern
+public class Intern extends Employee
 
 {
     private String schoolName;
     private double earnings;
     private Vehicle vehicle;
+
+    
 
     public String getSchoolName() {
         return schoolName;
@@ -30,4 +32,5 @@ public class Intern
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+
 }
