@@ -1,6 +1,6 @@
 package com.lambton;
 
-public abstract class Vehicle extends Employee {
+public class Vehicle  {
 
 
     private String make;
@@ -10,6 +10,8 @@ public abstract class Vehicle extends Employee {
     public String getMake() {
         return make;
     }
+
+
 
     public void setMake(String make) {
         this.make = make;
