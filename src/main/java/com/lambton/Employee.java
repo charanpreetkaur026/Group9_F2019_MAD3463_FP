@@ -56,5 +56,5 @@ public abstract class Employee implements IPrintable
         this.earnings = earnings;
     }
 
-   
+
 }
